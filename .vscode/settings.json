@@ -1,0 +1,27 @@
+{
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "emmet.syntaxProfiles": {
+    "postcss": "css"
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "files.exclude": {
+    ".eslintrc":true,
+    ".eslintrc.js":true,
+    ".stylelintrc":true,
+    ".editorconfig":true,
+    "jest.config.js":true,
+    "yarn.lock":true,
+    "babel.config.js":true,
+
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  }
+
+}

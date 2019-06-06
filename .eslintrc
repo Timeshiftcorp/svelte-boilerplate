@@ -1,0 +1,29 @@
+{
+  "plugins": [],
+  "env": {
+    "browser": true,
+    "node": true,
+    "commonjs": true,
+    "es6": true,
+    "jest": true
+  },
+  "globals": {},
+  "extends": ["airbnb-base"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.config.js"
+      }
+    }
+  },
+  "rules": {
+    "no-param-reassign": ["error", { "props": false }],
+
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "object-curly-newline": ["error", { "consistent": true }]
+  }
+}
