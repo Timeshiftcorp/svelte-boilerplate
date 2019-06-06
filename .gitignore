@@ -3,3 +3,4 @@ node_modules
 public
 coverage
 *.log
+yarn.lock
