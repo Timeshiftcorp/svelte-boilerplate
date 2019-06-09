@@ -1,5 +1,8 @@
 @import "global/typography"; // global typography
 
+@import "fontawesome/scss/solid.scss";
+@import "fontawesome/scss/fontawesome.scss";
+
 @tailwind base;
 
 @tailwind components;

@@ -21,6 +21,7 @@
   "author": "Shyam Chen",
   "license": "MIT",
   "dependencies": {
+    "chart.js": "^2.8.0",
     "core-js": "^3.1.1",
     "svero": "^0.5.0"
   },

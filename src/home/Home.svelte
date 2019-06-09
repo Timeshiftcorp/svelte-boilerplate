@@ -1,9 +1,13 @@
 <script>
+  import AdminLayout from "~/components/layouts/AdminLayout";
+  import Menu from "~/components/menu/Menu";
+  import Home from "~/components/Home";
+  import Footer from "~/components/layouts/Footer";
   export const router = {};
 </script>
 
-<div class="md-table bg-grey-light">Home Page</div>
-<div class="static bg-grey font-libre sm:bg-yellow-darkest md:bg-green-darker">
-  как дела
-  <div class="text-center bg-grey sm:text-right absolute bottom-0 left-0 " />
-</div>
+<AdminLayout>
+  <Menu />
+  <Home />
+  <Footer />
+</AdminLayout>

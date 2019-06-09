@@ -1,8 +1,8 @@
 <script>
 
   import { Link, Router, Route } from "svero";
-  import Home from "./home/Home";
-  import HelloWorld from "./hello-world/HelloWorld";
+  import Home from "~/home/Home";
+  import HelloWorld from "~/hello-world/HelloWorld";
 </script>
 
 <Link href="/">Home</Link>

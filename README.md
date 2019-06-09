@@ -3,6 +3,10 @@
 A boilerplate for Svelte, Babel, and PostCSS.
 with tailwind
 
+# tailwind
+
+https://tailwindcss.com/
+
 ## Getting Started
 
 1. Clone this boilerplate
